@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+}
+.header-section {
+    width: 100vw;
+    height: 100vh;
+}
+.header-section__nav {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: red;
+}
+.header-section__nav-items {
+   grid-column: 1 / 13;
+    grid-row: 1 / 4;
+    height: 156px;
+    padding: 56px 152px;
+    margin: 0;
+}

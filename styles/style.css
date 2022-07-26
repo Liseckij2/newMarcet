@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     background-color: white;
@@ -220,3 +221,83 @@ width: 50%;
 /*    background: linear-gradient(90deg, rgba(86,86,89,1) 0%, rgba(82,93,99,0.9640231092436975) 100%);*/
 /*    border-radius: 8px;*/
 /*}*/
+=======
+body {
+    margin: 0;
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+                /* HEADER SECTION */
+
+.header-section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    justify-items: center;
+}
+.bcg-image__header-section {
+    width: 100%;
+    height: 100%;
+    grid-area:3 / 1 / 13 / 13 ;
+}
+/*
+ первое значение определяет grid-row-start ,
+ второе значение -  grid-column-start ,
+ третье значение -  grid-row-end
+ четвёртое значение -  grid-column-end.*/
+.navigation__header-section {
+    width: 100%;
+    height: 156px;
+    padding: 56px 152px;
+    grid-area: 1 / 1 / 3 / 13;
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+}
+.navigation-item-first__header-section{
+    width: 30px;
+    height: 25px;
+}
+.navigation-item-second__header-section {
+    display: flex;
+    padding: 0;
+}
+.navigation-item-second__header-section > li > a {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4B4B4B;
+margin-left: 50px;
+    transition: all 0.5s ease;
+}
+.navigation-item-second__header-section > li > a:hover {
+    transition-duration: .5s;
+    color: gold;
+}
+.navigation-item-third__header-section {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navigation-item-third__header-section > li {
+margin-left: 30px;
+}
+.navigation-item-third__header-section > li > i {
+    font-size: 30px;
+    color: #7D7D7D;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.navigation-item-third__header-section > li > i:hover {
+    color: black;
+    transition-duration: .5s;
+}
+>>>>>>> 548e6f6d6d6a6b36ebab67001d266a6404e408c3

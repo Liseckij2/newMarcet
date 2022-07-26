@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9d0313798f.js" crossorigin="anonymous"></script>
 
     <!--    <script defer src="js/index.js"></script>-->
@@ -18,30 +21,71 @@
 <body>
 <header>
     <div  class="header-section">
-        <img class="bcg-image__header-section" src="images/Background.png" alt="img">
-        <nav class="navigation__header-section">
-            <img class="navigation-item-first__header-section" src="images/HOFMANN.png" alt="logo">
-            <ul class="navigation-item-second__header-section">
+        <img class="header-section__bcg-image" src="images/Background.png" alt="img">
+        <nav class="header-section__navigation">
+            <img class="header-section__navigation-item-first" src="images/HOFMANN.png" alt="logo">
+            <ul class="header-section__navigation-item-second">
                 <li><a href="#">PRICING</a></li>
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">TEAM</a></li>
                 <li><a href="#">CONTACT US</a></li>
             </ul>
-            <ul class="navigation-item-third__header-section">
+            <ul class="header-section__navigation-item-third">
                 <li><i class="fab fa-twitter"></i></li>
                 <li><i class="fab fa-facebook"></i></li>
                 <li><i class="fab fa-instagram"></i></li>
             </ul>
         </nav>
-        <h2>WELCOME</h2>
-        <p>Let’s make something great with the Responsive UI Kit!</p>
-        <form action="#" method="post">
-            <button type="button">Click Me!</button>
-            <button type="button">Click Me!</button>
-        </form>
+<div class="header-section__content">
+    <h2 class="header-section__content-greetings">WELCOME</h2>
+    <p class="header-section__content__slogan">Let’s make something great with the Responsive UI Kit!</p>
+    <form class="header-section__form" action="#" method="post">
+        <button class="header-section__form-button" type="button">SIGN UP</button>
+        <button class="header-section__form-button" type="button">LEARN MORE</button>
+    </form>
+</div>
     </div>
 </header>
-<main></main>
+<main>
+
+    <div class="main-section">
+        <h2 class="header-section__content-greetings">Choose Your Plan </h2>
+
+        <div class="main-section__card card-one">
+             <h6 class="main-section__card-price card-price-one">SILVER</h6>
+            <div class="main-section__wrapper-for-content">
+                <i class="fa fa-usd fa-usd-this-project" aria-hidden="true"></i>
+                <span class="main-section__price">49</span>
+                <h6 class="main-section__per-year">YEAR</h6>
+                <div class="main-section__info"><span>Personal Account</span></div>
+                <div class="main-section__info"><span>25 GB Discspace</span></div>
+                <div class="main-section__info"><span>50 Uploads per day</span></div>
+                <form class="main-section__form" action="#" method="post">
+                    <button class="main-section__form-button" type="button">PURCHASE</button>
+                </form>
+            </div>
+        </div>
+<!--        <div class="main-section__card card-two">-->
+<!--            <h6>GOLD</h6>-->
+<!--            <div class="main-section__wrapper-for-content">-->
+<!--                <i class="fa fa-usd fa-usd-this-project" aria-hidden="true"></i>-->
+<!--                <span class="main-section__price">49</span>-->
+<!--                <h6 class="main-section__per-year">YEAR</h6>-->
+<!--                <div class="main-section__info"><span>Personal Account</span></div>-->
+<!--                <div class="main-section__info"><span>25 GB Discspace</span></div>-->
+<!--                <div class="main-section__info"><span>50 Uploads per day</span></div>-->
+<!--                <form class="main-section__form" action="#" method="post">-->
+<!--                    <button class="main-section__form-button" type="button">PURCHASE</button>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main-section__card card-three">-->
+<!--            <h6>PLATINUM</h6>-->
+<!--        </div>-->
+
+    </div>
+
+</main>
 <footer></footer>
 </body>
 </html>

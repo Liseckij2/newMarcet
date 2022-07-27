@@ -54,6 +54,7 @@ align-items: center;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #4B4B4B;
+    font-weight: 700;
     margin-left: 50px;
     transition: all 0.5s ease;
 }
@@ -102,6 +103,7 @@ margin-right: 30px;
     margin-bottom: 36px;
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     text-align: center;
     color: #4B4B4B;
 }
@@ -111,7 +113,8 @@ margin-right: 30px;
 .header-section__form-button{
 width: 50%;
     padding: 14px 24px;
-    border: 2px solid #4B4B4B;
+    border: 1px solid transparent;
+    background: #EBCB80;
     border-radius: 50px;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -125,7 +128,8 @@ width: 50%;
 .header-section__form-button:hover {
     transition-duration: .5s;
     border: none;
-    background: #EBCB80;
+    border:  1px solid grey;
+    background: transparent;
 }
 
 
@@ -135,7 +139,7 @@ width: 50%;
 
 .main-section {
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     padding-top: 68px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -215,7 +219,7 @@ width: 50%;
     transition: all 0.5s ease;
 }
 .main-section__form-button:hover  {
-    transition-duration: .5s;
+    transition-duration: .6s;
     background: rgb(86,86,89);
     background: linear-gradient(259deg, rgba(86,86,89,1) 0%, rgba(1,1,1,0.9808298319327731) 100%);
     color: white;
@@ -277,4 +281,41 @@ width: 50%;
 .card-three {
    grid-area: 3 / 8 / 9 / 11;
     background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+}
+
+
+                            /*Main section second */
+
+
+.main-section-second {
+     width: 100vw;
+     height: 100vh;
+     display: grid;
+     grid-template-columns: 150px repeat(10, 1fr) 150px;
+     grid-template-rows: repeat(12, 1fr);
+     justify-items: center;
+     position: relative;
+}                
+.main-section-second__headlines {
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 4 / 3 / 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;             
+    font-weight: 300;               
+    /* THIS BEST WEY FONT 300 */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.main-section-second__team {
+    color: #4B4B4B;
+    transition: all 0.5s ease;
+}
+.main-section-second__team:hover {
+    transition-duration: .5s;
+    cursor: pointer;
+    text-shadow: 1px 0 0 black;
 }

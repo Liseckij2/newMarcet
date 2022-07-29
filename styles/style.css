@@ -290,18 +290,25 @@ width: 50%;
 .main-section-second {
      width: 100vw;
      height: 100vh;
+     padding: 0 150px;
      display: grid;
-     grid-template-columns: 150px repeat(10, 1fr) 150px;
-     grid-template-rows: repeat(12, 1fr);
+     grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: repeat(8, 1fr);
+
      justify-items: center;
      position: relative;
 }                
+.main-section-second__header {
+    grid-area: 1 / 1 / 2 / 17;
+    margin-bottom: 0;
+    align-self: center;
+}
 .main-section-second__headlines {
     width: 100%;
     height: 100%;
-    grid-area: 2 / 4 / 3 / 10;
+    grid-area: 2 / 2 / 3 / 8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 18px;             
     font-weight: 300;               
@@ -319,3 +326,32 @@ width: 50%;
     cursor: pointer;
     text-shadow: 1px 0 0 black;
 }
+
+                        /*This cards */
+
+.main-section-second__statistic-card-one {
+    width: 262px;
+    height: 262px;
+    grid-area: 3 / 1 / 6 / 3;
+   }
+.main-section-second__statistic-card-two {
+    width: 262px;
+    height: 262px;
+    grid-area: 3 / 3 / 7 / 5;
+   }
+
+.main-section-second__statistic-card-three {
+    width: 262px;
+    height: 262px;
+    grid-area: 3 / 5 / 7 / 7;
+   }
+.main-section-second__statistic-card-four {
+    width: 262px;
+    height: 262px;
+    grid-area: 3 / 7 / 7 / 9;
+   }
+   .main-section-second__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   }

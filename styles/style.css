@@ -661,16 +661,19 @@ font-size: 30px;
     display: block;
   }
   .header-section__form > .header-section__form-button:nth-child(1) {
+    font-size: 11px;
 margin: 0 auto;
 display: block;
 margin-bottom: 16px;
   }
   .header-section__form > .header-section__form-button:nth-child(2) {
+    font-size: 11px;
     margin: 0 auto;
 display: block;
 
   }
   .main-section {
+    height: 60vh;
     padding: 36px 36px;
   }
   .header-section__content-greetings {
@@ -682,15 +685,43 @@ display: block;
   .main-section__card  {
     width: 170px;
     height: 280px;
+    padding: 22px 26px;
   }
   .card-one {
-    grid-area: 3 / 1 / 9 / 5;
+    grid-area: 2 / 1 / 8 / 5;
   }
   .card-two  {
- grid-area: 3 / 5 / 9 /9;
+ grid-area: 2 / 5 / 8 /9;
   }
   .card-three {
-grid-area: 3 / 9 / 9 / 13;
+grid-area: 2 / 9 / 8 / 13;
+  }
+  .main-section__card-price {
+    font-size: 12px;
+  }
+  .fa-usd-this-project {
+    font-size: 11px;
+    position: absolute;
+    left: 30px;
+  }
+  .main-section__price,   .main-section__price-two {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  .main-section__per-year, .main-section__per-year-two {
+    font-size: 12px;
+    margin: 6px 0;
+  }
+  .main-section__info, .main-section__info-two {
+    font-size: 11px;
+  }
+  .main-section__form-button, .main-section__form-button-two {
+    padding: 10px 20px;
+    margin-top: 16px;
+    font-size: 11px;
+  }
+  .main-section-second {
+    padding: 32px 24px;
   }
 }
 /* пофиксить изображение  */

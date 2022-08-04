@@ -512,7 +512,7 @@ div {
   padding: 20px 30px;
   border: 2.13333px solid #e6e6e6;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
-  grid-area: 2 / 3 /7 / 4;
+  grid-area: 2 / 3 / 7 / 4;
 }
 .main-section-fourth__name-mail-contact {
   width: 100%;
@@ -622,6 +622,7 @@ border-bottom: 1px solid  #7D7D7D;
   width: 100%;
   height: 100%;
   padding-left: 20px;
+  border-top: 1px solid #7D7D7D;
   grid-area: 7 / 2 / 9 / 6;
   display: flex;
   justify-content: space-between;
@@ -636,7 +637,7 @@ font-size: 30px;
   cursor: pointer;
 }
 /* Adaptive */
-@media screen  and (max-width: 767px)  { 
+@media screen  and (min-width: 767px) and (max-width: 1082px)  { 
   .header-section__navigation  {
     padding: 38px 25px;
     font-size: 12px;
@@ -787,6 +788,117 @@ padding: 10px 10px 0 10px;
   .main-section-second__statistic-card-eight {
     grid-area: 5 / 2 / 6 / 3;
   }
+  
+  .main-section-third {
+    height: 70vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px repeat(3, 1fr);
+    background: #f6f6f6;
+    padding: 40px 80px;
+  }
+  .style-card {
+    width: 100%;
+    height: 100%;
+    padding-left: 65px;
+    margin-top: 24px;
+  }
+.main-section-third__avatar {
+  width: 62px;
+  height: 62px;
+  left: 0;
+  top: 0;
+}
+.main-section-third__name-tiam-member {
+  font-size: 12px;
+}
+.main-section-third__name-tiam-speciality, .main-section-third__name-tiam-content {
+font-size: 11px;
+}
+.main-section-third__card-one {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.main-section-third__card-two  {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.main-section-third__card-three {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.main-section-third__card-four  {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.main-section-third__card-five {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.main-section-third__card-six {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.main-section-fourth {
+  padding: 20px;
+  height: 52vh;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: 40px repeat(3, 1fr);
+}
+.main-section-fourth__contact-info {
+  padding: 0 0 0 10px;
+  grid-area: 2 / 2 / 4 / 3;
+}
+.main-section-fourth__heading, .contact-link {
+  font-size: 12px;
+}
+.contact-link {
+  letter-spacing: 12px;
+  margin-bottom: 12px;
+}
+.main-section-fourth__location {
+  font-size: 11px;
+}
+.main-section-fourth__contact-message {
+  padding: 10px;
+  border: none;
+  grid-area: 2 / 1 / 4 / 2;
+  font-size: 11px;
+  box-shadow: none;
+}
+.submit-button {
+  font-size: 9px;
+}
+input {
+  font-size: 11px;
+}
+#message-area {
+  margin: 0 0 10px 0;
+}
+.main-section-fourth__credits-follow {
+  padding: 0 0 0 10px;
+  grid-area: 2 / 3 / 4 / 4;
+}
+.footer-section {
+  padding: 28px;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+.footer-section__style > a{
+  font-size: 11px;
+}
+.section-posicion-one {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.section-posicion-two {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.section-posicion-three {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.section-posicion-four {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.footer-section-footer {
+  font-size: 11px;
+  grid-area: 2 / 1 / 3 / 5;
+}
+.social-icon {
+font-size: 11px;
+}
 }
 /* пофиксить изображение  */
 /* пофиксить нав бар */

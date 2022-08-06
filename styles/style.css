@@ -1002,12 +1002,11 @@ padding: 0;
   width: 100px;
   height: 100px;
   display: flex;
+  justify-content: space-between;
   margin: 180px auto;
   font-size: 20px;
 }
-.header-section__social-link > i:nth-child(2) {
-margin: 0 26px;
-}
+
 .main-section {
   padding: 52px 32px;
 }

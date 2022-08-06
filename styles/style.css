@@ -999,14 +999,19 @@ padding: 0;
   background: linear-gradient(217.09deg, #FFFFFF 0%, #DADADA 100%);
 }
 .header-section__social-link {
-  width: 180px;
+  width: 100px;
   height: 100px;
-  margin: 80px auto;
+  display: flex;
+  margin: 180px auto;
   font-size: 20px;
 }
 .header-section__social-link > i:nth-child(2) {
-margin: 0 20px;
+margin: 0 26px;
 }
+.main-section {
+  padding: 52px 32px;
+}
+
 }
 /* пофиксить изображение  */
 /* пофиксить нав бар */

@@ -20,6 +20,9 @@ textarea {
 .wrapper-slide {
   visibility: hidden;
 }
+.wrapper-slide {
+  display: none;
+}
 .header-section__navigation-hamburger {
   display: none;
 }

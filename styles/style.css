@@ -17,6 +17,9 @@ label {
 textarea {
   resize: none;
 }
+.wrapper-slide {
+  visibility: hidden;
+}
 .header-section__navigation-hamburger {
   display: none;
 }
@@ -904,7 +907,6 @@ font-size: 11px;
 }
 }
 @media screen  and (min-width: 320px) and (max-width: 767px) {
-
 .header-section__navigation {
   width: 100%;
   height: 60px;
@@ -991,7 +993,6 @@ padding: 0;
   color: #4B4B4B;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
 .header-section__bcg-image {
   display: none;
 }
@@ -1006,12 +1007,156 @@ padding: 0;
   margin: 180px auto;
   font-size: 20px;
 }
-
 .main-section {
   padding: 52px 32px;
 }
+.main-section {
+  visibility: hidden;
+  display: none;
+}
+.wrapper-slide {
+  visibility: visible;
+  width: 100vw;
+  height: 75vh;
+  padding: 40px 0;
+  display: grid;
+justify-items: center;
+align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  justify-items: center;
+  background: #f6f6f6;
+}
+.header-section__content-greetings {
+  grid-area: 1 / 1 / 2 / 13;
+}
+.slideshow-container {
+  grid-area: 1 / 1 / 12 / 13;
+}
+.dots-circles {
+grid-area:  11 / 1 / 13 / 13;
+justify-content: center;
+}
+.main-section__card {
+  width: 226px;
+height: 340px;
+padding-bottom: 0;
+}
+.main-section__card-price {
+  font-size: 12px;
+  margin-bottom: 23px;
+}
+.fa-usd-this-project {
+  font-size: 11px;
+  left: 68px;
+}
+.main-section__per-year, .main-section__per-year-two {
+  margin: 10px 0;
+  font-size: 12px;
+}
+.main-section__price, .main-section__price-two {
+  font-size: 36px;
+}
+.main-section__info-two, .main-section__info {
+  font-size: 11px;
+}
+.main-section__form-button-two, .main-section__form-button{
+  margin-top: 36px;
+  font-size: 11px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  width: 85px;
+height: 24px;
+padding: 5px 20px;
+font-size: 12px;
+font-weight: 700;
+border-radius: 48px;
+font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot1:hover {
+  background-color: #717171;
+}
+.dot2:hover {
+  background: #EBCB80;
+}
+.dot3:hover {
+background: lightgray;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
 
 }
 /* пофиксить изображение  */
 /* пофиксить нав бар */
 /* мобильный: 767px и ниже */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

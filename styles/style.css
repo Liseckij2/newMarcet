@@ -1020,7 +1020,7 @@ padding: 0;
 .wrapper-slide {
   visibility: visible;
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
   padding: 40px 0;
   display: grid;
 justify-items: center;

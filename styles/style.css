@@ -1021,7 +1021,7 @@ padding: 0;
   visibility: visible;
   width: 100vw;
   height: 100vh;
-  padding: 40px 0;
+  padding: 0;
   display: grid;
 justify-items: center;
 align-items: center;
@@ -1032,6 +1032,7 @@ align-items: center;
 }
 .header-section__content-greetings {
   grid-area: 1 / 1 / 2 / 13;
+  margin: 0;
 }
 .slideshow-container {
   grid-area: 1 / 1 / 12 / 13;
@@ -1041,17 +1042,17 @@ grid-area:  11 / 1 / 13 / 13;
 justify-content: center;
 }
 .main-section__card {
-  width: 226px;
-height: 340px;
-padding-bottom: 0;
+  width: 180px;
+height: 278px;
+padding: 10px 0 0 0;
 }
 .main-section__card-price {
   font-size: 12px;
-  margin-bottom: 23px;
+margin: 0;
 }
 .fa-usd-this-project {
   font-size: 11px;
-  left: 68px;
+  left: 60px;
 }
 .main-section__per-year, .main-section__per-year-two {
   margin: 10px 0;

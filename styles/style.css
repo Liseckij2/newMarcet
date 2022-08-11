@@ -26,6 +26,9 @@ textarea {
 .header-section__navigation-hamburger {
   display: none;
 }
+.main-section-second__menu {
+  display: none;
+}
 /* HEADER SECTION */
 
 .header-section {
@@ -934,7 +937,6 @@ margin-bottom: 16px;
   font-size: 11px;
   margin: 0 auto;
 display: block;
-
 }
 .header-section__navigation-item-second {
   display: none;
@@ -942,7 +944,6 @@ display: block;
 .header-section__navigation-item-third {
   display: none;
 }
-
 /* Hamburge-menu */
 .header-section__navigation-links {
   display: none;
@@ -1133,15 +1134,109 @@ background: lightgray;
   from {opacity: .4}
   to {opacity: 1}
 }
+.main-section-second {
 
-
-
-
-
-
-
-
-
+  height: 650px;
+  padding: 28px 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 60px repeat(4, 1fr);
+}
+.main-section-second__headlines {
+  display: none;
+}
+.main-section-second__statistics {
+  display: none;
+}
+.size-card {
+  width: 140px;
+height: 106px;
+}
+.main-section-second__menu {
+  display: block;
+  height: 24px;
+  margin: 16px 0;
+  border: 1px solid #4B4B4B;
+border-radius: 48px;
+  grid-area: 2 / 1 / 3 / 3;
+}
+.main-section-second__image {
+  width: 100%;
+  height: 100%;
+}
+.main-section-second__statistic-card-one {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.main-section-second__statistic-card-two {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.main-section-second__statistic-card-three  {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.main-section-second__statistic-card-four {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.main-section-second__statistic-card-five  {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.main-section-second__statistic-card-six  {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.main-section-second__statistic-card-seven {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.main-section-second__statistic-card-eight {
+  grid-area: 6 / 2 / 7 / 3;
+}
+.main-section-third {
+  height: 780px;
+  padding: 40px 28px 70px 28px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px repeat(6, 1fr);
+}
+.style-card {
+  padding: 0 0 0 50px;
+}
+.main-section-third__avatar {
+  width: 48px;
+  height: 48px;
+  left: 0;
+}
+.main-section-third__name-tiam-member, .main-section-third__name-tiam-speciality,
+.main-section-third__name-tiam-content  {
+  font-size: 11px;
+}
+.main-section-third__card-one {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.main-section-third__card-two {
+  grid-area: 3 / 1 / 4 / 3;
+}
+.main-section-third__card-three {
+  grid-area: 4 / 1 / 5 / 3;
+}
+.main-section-third__card-four {
+  grid-area: 5 / 1 / 6 / 3;
+}
+.main-section-third__card-five {
+  grid-area: 6 / 1 / 7 / 3;
+}
+.main-section-third__card-six {
+  grid-area: 7 / 1 / 8 / 3;
+}
+.main-section-fourth {
+  height: 100vh;
+  padding: 45px 64px 30px 64px;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 40px repeat(7, 1fr);
+}
+.main-section-fourth__contact-message {
+  grid-area: 2 / 1 / 7 / 3;
+margin-top: 0;
+}
+#message-area, #user-mail, #user-name {
+  margin: 5px 0;
+}
+ 
 }
 /* пофиксить изображение  */
 /* пофиксить нав бар */

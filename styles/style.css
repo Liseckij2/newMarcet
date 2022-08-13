@@ -1278,7 +1278,7 @@ height: 50px;
   height: 600px;
   padding: 28px 12px;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 55px 55px;
 }
 .section-posicion-one {
   grid-area: 1 / 1 / 2 / 2;
@@ -1303,8 +1303,28 @@ height: 50px;
   grid-area: 2 / 2 / 3 / 3;
 }
 .footer-section-footer {
-  grid-area: 3 / 1 / 4 / 3;
-  padding: 0;
+  grid-area: 3 / 1 / 5 / 3;
+  padding: 14px 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-section-footer__links{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  order: -1;
+}
+.footer-section-footer__email {
+  width: 100%;
+  height: 55px;
+  font-size: 11px;
+  text-align: center;
+}
+.footer-section-footer > div > a {
+  font-size: 15px;
+  align-self: center;
+  letter-spacing: 0;
 }
 }
 /* пофиксить изображение  */
